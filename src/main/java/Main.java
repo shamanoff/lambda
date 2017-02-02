@@ -21,7 +21,7 @@ public class Main {
 
         System.out.println("Wariors: "+ wariors.toString());*/
 
-        List<String> beginningWithNumbers = Stream.of("a", "labc", "abcl", "1eee")
+        List<String> beginningWithNumbers = Stream.of("a", "2abc", "abc", "1eee")
                 .filter(value -> isDigit(value.charAt(0)))
                 .collect(toList());
 
