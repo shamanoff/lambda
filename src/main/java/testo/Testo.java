@@ -33,7 +33,7 @@ public class Testo {
 
                     .map(String::toLowerCase)
                     .flatMap(splitSentence)
-                    .filter(s -> s.contains(inputWord))
+//                    .filter(s -> s.contains(inputWord))
                     .collect(Collectors.toList());
 
             for (String s:lines) {
